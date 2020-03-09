@@ -1,0 +1,17 @@
+#include "DataRowDouble.h"
+
+DataRowDouble::DataRowDouble()
+{
+    
+
+}
+
+DataRowDouble::DataRowDouble(const double& drdouble){
+
+}
+DataRowDouble::DataRowDouble(const DataRowDouble&){
+    
+}
+DataRowDouble& DataRowDouble::operator=(const DataRowDouble& drdouble){
+    
+}
