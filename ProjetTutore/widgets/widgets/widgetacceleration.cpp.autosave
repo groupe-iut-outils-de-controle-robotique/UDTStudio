@@ -1,0 +1,6 @@
+#include "widgetacceleration.h"
+
+WidgetAcceleration::WidgetAcceleration(QWidget *parent)
+{
+
+}

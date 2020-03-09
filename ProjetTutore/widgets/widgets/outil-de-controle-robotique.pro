@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-03-02T09:31:51
+# Project created by QtCreator 2019-12-16T09:20:20
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = appWidget
+TARGET = outil-de-controle-robotique
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,21 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        WidgetAllumerEteindreMoteur.cpp \
+        WidgetGestionVitesseBouton.cpp \
         main.cpp \
-    WidgetAllumerEteindreMoteur.cpp \
-    WidgetAcceleration.cpp \
-    WindowWidgetPopup.cpp \
-    AppWidget.cpp \
     WidgetVitesse.cpp \
-    WidgetGestionVitesseBouton.cpp
+    WidgetAcceleration.cpp
 
 HEADERS += \
     WidgetAllumerEteindreMoteur.h \
-    WidgetAcceleration.h \
-    WindowWidgetPopup.h \
-    AppWidget.h \
+    WidgetGestionVitesseBouton.h \
     WidgetVitesse.h \
-    WidgetGestionVitesseBouton.h
+    WidgetAcceleration.h
 
 FORMS +=
 

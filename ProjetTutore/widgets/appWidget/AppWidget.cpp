@@ -1,5 +1,5 @@
-#include "appwidget.h"
-#include "windowwidgetpopup.h"
+#include "AppWidget.h"
+#include "WindowWidgetPopup.h"
 
 AppWidget::AppWidget(int x, int y)
 {

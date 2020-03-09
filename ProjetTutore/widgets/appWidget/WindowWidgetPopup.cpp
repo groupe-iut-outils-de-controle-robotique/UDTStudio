@@ -1,4 +1,4 @@
-#include "windowwidgetpopup.h"
+#include "WindowWidgetPopup.h"
 
 WindowWidgetPopup::WindowWidgetPopup(int x, int y)
 {
