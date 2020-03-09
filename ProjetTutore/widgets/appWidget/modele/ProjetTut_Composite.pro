@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-03-02T09:31:51
+# Project created by QtCreator 2020-01-27T08:25:16
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = appWidget
+TARGET = ProjetTut_Composite
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,18 +26,31 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    WindowWidgetPopup.cpp \
-    AppWidget.cpp \
-    widget/*.cpp \
-    modele/*.cpp
+    Node.cpp \
+    Type.cpp \
+    Bus.cpp \
+    Index.cpp \  
+    Data.cpp \
+    DataLecture.cpp \
+    DataEcriture.cpp \
+    DataLectureEcriture.cpp \
+    Conteneur.cpp \
+    DataRow.cpp \
+    DataRowDouble.cpp
 
 HEADERS += \
-    WindowWidgetPopup.h \
-    AppWidget.h \
-    widget/*.h \
-    modele/*.h \
-
-FORMS +=
+    Type.h \
+    Node.h \
+    Bus.h \
+    Index.h \
+    TypeWid.h \
+    Data.h \
+    DataLecture.h \
+    DataEcriture.h \
+    DataLectureEcriture.h \
+    Conteneur.h \
+    DataRow.h \
+    DataRowDouble.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

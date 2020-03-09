@@ -1,0 +1,14 @@
+#ifndef OBJECT_H
+#define OBJECT_H
+
+
+class Object
+{
+public:
+    virtual ~Object();
+    void ajouter(Object composant);
+    void retirer(Object composant);
+    Object getchildren(int indice);
+};
+
+#endif // OBJECT_H
